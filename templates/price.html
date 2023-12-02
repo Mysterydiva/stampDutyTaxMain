@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <title>{{ title }} Price</title>
+    <link href = "{{ url_for('static', filename= 'styles/style.css')}}" 
+    rel="stylesheet"/>
+</head>
+
+<body>
+     
+   <table border="2"> 
+    <caption>RESULT</caption>
+    <tr>
+        <th>Your Tax is : </th>
+        <td>{{tax}}</td>
+    </tr>
+   </table>  
+     
+</body>
+
+</html>
