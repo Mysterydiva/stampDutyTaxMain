@@ -21,5 +21,4 @@ def get_price():
     )
 
 if __name__ == "__ main__":
-    #waitress-serve --host 127.0.0.1 --call hello:create_app
     serve(app, host="0.0.0.0", port=8000)
